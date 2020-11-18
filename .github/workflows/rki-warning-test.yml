@@ -29,9 +29,6 @@ jobs:
         run: |
           cd ./code/auto_download/
           output="$(python test.py)"
-          output="${output//'%'/'%25'}"
-          output="${output//$'\n'/'%0A'}"
-          output="${output//$'\r'/'%0D'}" 
           echo "::set-output name=changelog::$output"
         id: step1
       - name: Print changelog
