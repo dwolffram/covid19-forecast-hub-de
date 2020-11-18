@@ -1,4 +1,4 @@
 warning_out = 'WARNING: This is a warning.'
-warning_out += '\n Warning2.'
-warning_out += '\n Warning3.'
+warning_out += '%0A Warning2.'
+warning_out += '%0A Warning3.'
 print(warning_out)
