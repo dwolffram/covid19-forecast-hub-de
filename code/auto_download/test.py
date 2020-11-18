@@ -1,3 +1,4 @@
-print('WARNING: This is a warning.')
-print('WARNING2')
-print('WARNING3')
+warning_out = 'WARNING: This is a warning.'
+warning_out += '\nWarning2.'
+warning_out += '\nWarning3.'
+print(warning_out)
