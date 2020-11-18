@@ -35,5 +35,5 @@ jobs:
           echo "::set-output name=changelog::$output"
         id: step1
       - name: Print changelog
-        run: echo "::warning ::${{ steps.step1.outputs.changelog }}"
+        run: echo "::warning ::"${{ steps.step1.outputs.changelog }}""
 
